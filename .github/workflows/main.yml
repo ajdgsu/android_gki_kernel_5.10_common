@@ -15,9 +15,9 @@ jobs:
           branch: android12-5.10-2024-08
           config: gki_defconfig
           arch: arm64
-          aosp-gcc: true
+          aosp-gcc: false
           aosp-clang: true
           android-version: 12
-          aosp-clang-version: r416183b1
+          aosp-clang-version: r522817
           anykernel3: true
           anykernel3-url: https://github.com/ztc1997/AnyKernel3
